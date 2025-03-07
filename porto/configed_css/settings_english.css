@@ -1,0 +1,368 @@
+/**
+ * WARNING: Do not change this file. Your changes will be lost.
+ * 2024-12-25 00:41:41 */
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS4J0.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS4J0.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}body.boxed {
+}
+@media (min-width: 768px) {
+    .page-layout-1column .product-info-main, .page-layout-2columns-left .product-info-main, .page-layout-2columns-right .product-info-main, .page-layout-3columns .product-info-main,.page-product-downloadable .product-options-bottom {
+        width: 57.17%;
+    }
+    .page-layout-1column .product.media, .page-layout-2columns-left .product.media, .page-layout-2columns-right .product.media, .page-layout-3columns .product.media,.page-product-downloadable .product-options-wrapper {
+        width: 40.83%;
+    }
+
+    .page-layout-1column .column.main > .custom-block ~ .product-info-main, .page-layout-2columns-left .column.main > .custom-block ~ .product-info-main, .page-layout-2columns-right .column.main > .custom-block ~ .product-info-main, .page-layout-3columns .column.main > .custom-block ~ .product-info-main {
+        width: 42.8775%;
+    }
+    .page-layout-1column .column.main > .custom-block ~ .product.media, .page-layout-2columns-left .column.main > .custom-block ~ .product.media, .page-layout-2columns-right .column.main > .custom-block ~ .product.media, .page-layout-3columns .column.main > .custom-block ~ .product.media {
+        width: 30.6225%;
+    }
+}
+
+@media (max-width: 575px){
+body {
+    font-size: 13px;
+    line-height: 21px;
+}
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222529;
+    letter-spacing: normal;
+}
+h1 {
+    font-family: Cairo,sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #222529;
+    margin: 0 0 32px 0;
+}
+h2 {
+    font-family: Cairo,sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #222529;
+    margin: 0 0 32px 0;
+}
+h3 {
+    font-family: Cairo,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #222529;
+    margin: 0 0 20px 0;
+}
+h4 {
+    font-family: Cairo,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222529;
+    margin: 0 0 14px 0;
+}
+h5 {
+    font-family: Cairo,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #313131;
+    margin: 0 0 14px 0;
+}
+h6 {
+    font-family: Cairo,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6b7a83;
+    margin: 0 0 14px 0;
+}
+p {
+    letter-spacing: normal;
+}
+.col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: none;
+}
+sup {
+    font-size: 70%;
+    top: -.3em;
+}
+.home-banner-slider h2.vc_custom_heading, .custom-font4 {
+    font-family: 'Segoe Script','Savoye LET';
+}
+html .heading-secondary, html .lnk-secondary, html .text-color-secondary {
+    color: #ff7272;
+}
+html .action.primary, html .btn {
+    font-family: Cairo;
+   letter-spacing: normal;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: .8em 2em;
+}
+html .action.primary {
+    color: #fff;
+    background-color: #08c;
+    border-color: #08c #08c #069;
+}
+html .btn-modern {
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-family: Cairo;
+    font-weight: 400;
+     letter-spacing: normal;
+    padding: 1em 1.6em;
+}
+.btn-flat {
+    padding: 0!important;
+    background: none!important;
+    border: none!important;
+    border-bottom: 1px solid transparent!important;
+    box-shadow: none!important;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+html .btn-dark {
+    color: #fff;
+    background-color: #222529;
+    border-color: #222529 #222529 #0b0c0e;
+}
+html .btn-light {
+    color: #222529;
+    background-color: #fff;
+    border-color: #fff #fff #e6e6e6;
+}
+html .btn-lg {
+    line-height: 1.3333;
+}
+.btn-modern.btn-lg {
+    font-size: 1em;
+    padding: 1rem 2.25rem;
+    padding-left: 2.8em;
+    padding-right: 2.8em;
+}
+.btn-modern.btn-xl {
+    font-size: 1.1428em;
+    padding: 1.25em 3em;
+}
+html .btn-quaternary {
+    color: #fff;
+    background-color: #0e0f11;
+    border-color: #0e0f11 #0e0f11 #000;
+}
+html .background-color-secondary {
+    background-color: #ff7272!important;
+}
+.porto-block-html-top a {
+    background: #0075af !important;
+}
+
+.page-header .panel.wrapper::after {
+    display: none;
+}
+.page-header .panel.wrapper {
+    letter-spacing: normal;
+}
+.page-header .header-main {
+    border-top: 1px solid #e7e7e7;
+}
+.sw-megamenu.navigation li.level0 > em, .sw-megamenu.navigation li.level0 i {
+    display: none;
+}
+.page-header.type2 .main-panel-top .separator {
+    border-left-color: rgba(0,0,0,.04);
+}
+.page-header.type2 .block-search input {
+    height: 40px;
+}
+.page-header.type2 .search-category {
+    height: 40px;
+    line-height: 40px;
+    border-color: #fff;
+}
+.page-header.type2 .sw-megamenu.navigation li.level0 .submenu a {
+    line-height: 20px;
+    font-weight: 400;
+}
+.page-header.type2 .search-area .minisearch .actions button {
+    width: 38px;
+    height: 42px;
+    color: #222529;
+}
+.main-panel-top .panel.header+.gap {
+    background: rgba(0,0,0,.04);
+}
+@media (min-width: 992px) {
+.page-header.type2 .nav-sections {
+    min-height: 58px;
+}
+.page-header.type2 .navigation > ul:before {
+    content: '';
+    position: absolute;
+    width:100%;
+    top: 0;
+    border-top: 1px solid #f4f4f4;
+}
+.page-header.type2 .navigation .level0 .level-top {
+    line-height: 18px;
+}
+.page-header.type2 .navigation .level0 .level-top:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.page-header.type2 .navigation .level0:hover .level-top:before {
+    opacity: 1;
+}
+}
+.top-icon .porto-sicon-header {
+    margin-bottom: .75rem;
+}
+.widget .widgettitle {
+    font-size: 1rem;
+     letter-spacing: normal;
+}
+.slider-title {
+    font-size: 1.125rem;
+     letter-spacing: normal;
+    line-height: 1.45;
+}
+.porto-products.title-border-middle>.section-title {
+    margin-bottom: .5rem;
+}
+.product-item-photo>a:not(.weltpixel-quickview):before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    z-index: 3;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.product-item-info:hover .product-item-photo>a:not(.weltpixel-quickview):before {
+    opacity:1;
+}
+.product-item-info.type1 .product-item-details .product-item-actions .tocart {
+    padding: 0 1.2em;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    color: #6f6e6b;
+}
+.product-item-info.type1:hover .product-item-details .product-item-actions .tocart {
+    padding: 0 .7143em;
+    background: #2b2b2d;
+    border-color: #2b2b2d;
+    color: #fff;
+}
+
+.product-item .product-item-info.type1 .tocart:before {
+    display: none;
+}
+.product-item .product-item-info.type1:hover .tocart:before {
+    display: inline-block;
+}
+.products-grid .product-item .product-item-info.type1:hover {
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 8%);
+}
+.product-item-info:hover .product-item-photo {
+    box-shadow: none;
+}
+.small-list.products-grid .product-items .product-item-info .product-item-photo:before {display: none;}
+
+.products-slider.owl-carousel .product-item {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.product-options-bottom, .product-info-price {
+    font-family: 'Cairo';
+}
+.page-wrapper > .breadcrumbs .items {
+    padding: 10px;
+}
+.block-category-list .block-title, .side-custom-block .custom-block h2 {
+    font-family: 'Cairo';
+}
+.footer .widgettitle, .footer .widget-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer .block.newsletter .form.subscribe {
+    display: block;
+}
+.footer .block.newsletter .field {
+    margin-bottom: 1rem;
+}
+.footer .newsletter input {
+    height: 44px;
+    border: none;
+    border-radius: 30px;
+    background: #292c30;
+    padding-left: 1.5rem;
+    font-size: .8125rem;
+}
+.footer .newsletter .action.subscribe {
+    height: 44px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 1.75rem;
+    font-size: .8125rem;
+    font-weight: 400;
+    font-family: inherit;
+     letter-spacing: normal;
+    margin-left: -1px;
+}
+.footer .widget {
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+}
+.footer .widget:first-child {
+    margin-top: 0;
+}
+.footer .contact-info .contact-details strong, .footer .contact-info .contact-details span {
+    line-height: 1.4;
+}
+.footer-bottom .widget.widget_custom_html {
+    margin: 0;
+}
+@media(min-width:768px){
+.footer-bottom .widget.widget_custom_html {
+    display: flex;
+    justify-content: flex-end;
+
+}
+}
